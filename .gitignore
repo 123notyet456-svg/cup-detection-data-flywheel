@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv-yolo/
+.venv-labelstudio/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+
+# Training outputs
+runs/
+
+# Local datasets
+data/
+dataset_v1/
+dataset_v2/
+prelabel_source/
+final_export/
+cup.v1i.yolov8/
+
+# Label Studio local data
+.labelstudio/
+*.sqlite3
+
+# YOLO cache
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+# Generated / intermediate annotation files
+cup.v1i.yolov8.zip
+prelabel_tasks.json
+prelabel_tasks.label_config.xml
