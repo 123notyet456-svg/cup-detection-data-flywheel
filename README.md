@@ -27,6 +27,7 @@ Task:
 Cup Object Detection
 Class: cup
 Model: YOLOv8n
+```
 2. Data Pipeline
 Raw Data
 ↓
