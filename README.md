@@ -1,4 +1,4 @@
-# Cup Detection Data Flywheel
+<img width="1032" height="484" alt="image" src="https://github.com/user-attachments/assets/b24bbb00-1035-4df2-a515-ed08cbb77b61" /># Cup Detection Data Flywheel
 
 一个围绕 Cup Object Detection 构建的最小数据飞轮项目。
 
@@ -6,6 +6,7 @@
 
 数据质量检查 → 清洗 → 标注 → Dataset Construction → Leakage Check → Baseline Training → Challenge Set → Failure Analysis → Targeted Data Collection → Retraining → Re-evaluation
 
+面向目标检测模型训练，完成数据清洗、标注 QC、泄漏检查、困难集构建、定向补充与复评，形成可追踪的数据飞轮。
 ---
 
 ## 1. Project Goal
