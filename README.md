@@ -1,4 +1,11 @@
-<img width="1032" height="484" alt="image" src="https://github.com/user-attachments/assets/b24bbb00-1035-4df2-a515-ed08cbb77b61" /># Cup Detection Data Flywheel
+## 项目摘要
+
+面向目标检测训练数据，完成数据清洗、标注规范、质量检查、数据集切分、泄漏排查、困难集构建、定向样本采集与模型复评。
+
+- 原始图片：141张；去除20张重复图片后保留121张
+- 数据QC：损坏检查、重复检查、标注检查、数据泄漏检查
+- 困难集：24张；定向补充32张困难样本
+- 结果：测试集mAP50-95由0.896提升至0.910；负样本误报率约由42.9%降至14.3%
 
 一个围绕 Cup Object Detection 构建的最小数据飞轮项目。
 
