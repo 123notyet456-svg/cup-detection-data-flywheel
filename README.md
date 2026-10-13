@@ -4,9 +4,9 @@
 
 项目目标不是单纯训练一个 YOLO 模型，而是完整实践：
 
-数据质量检查 → 清洗 → 标注 → Dataset Construction → Leakage Check → Baseline Training → Challenge Set → Failure Analysis → Targeted Data Collection → Retraining → Re-evaluation
+数据质量检查 → 清洗 → 标注 → Dataset Construction → Leakage Check → Baseline Training → Challenge Set → Failure Analysis → Targeted Data Collection → Retraining → Re-evaluation。面向目标检测模型训练，完成数据清洗、标注 QC、泄漏检查、困难集构建、定向补充与复评，形成可追踪的数据飞轮。
 
-面向目标检测模型训练，完成数据清洗、标注 QC、泄漏检查、困难集构建、定向补充与复评，形成可追踪的数据飞轮。
+
 ---
 
 ## 1. Project Goal
